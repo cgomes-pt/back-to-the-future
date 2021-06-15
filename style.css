@@ -1,0 +1,267 @@
+:root{
+     --primary: hsl(212, 19%, 20%,0.80);
+    --secondary: hsl(211, 16%, 34%,0.80);
+}
+
+body, html {
+    margin: 0%;
+    height: 100%;
+
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+    background:  linear-gradient(135deg, var(--secondary),var(--primary)), url('./imgs/delorean.jpg') no-repeat center center / cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+
+.banner nav {
+    position: fixed;
+    display: flex;
+    align-content: center;
+background-color:#2e3640;
+width: 100%;
+}
+
+nav {
+    padding: 10px;
+}
+
+
+nav a {
+    margin-right: 15px;
+}
+
+.regresso-ao-futuro{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.regresso-ao-futuro h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: azure;
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.regresso-ao-futuro p {
+    margin: 0;
+    color: azure;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+
+
+.equipa {
+    width: 100%;
+    height: 100%;
+    background-color: #495665;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.preço img {
+    width: 100px;
+    height: 100px;
+}
+
+.preços {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.services {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.container-elements{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-services{
+    margin-right: 35px;
+}
+.service img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.service p {
+    margin: 0;
+}
+ 
+
+.equipa h1{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+padding-bottom: 100px;
+}
+
+.equipa h2{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size: 12;
+}
+
+.elemento{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.elemento img {
+    width: 130px;
+    height: 130px;
+    border-radius: 500%;
+}
+
+.elemento p {
+    font-family: 'Source Sans Pro', sans-serif;
+
+    color: white;
+}
+
+
+.preço {
+    width: auto;
+    height: 450px;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+.preço h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12;
+}
+
+.preço h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+ 
+.preço button {
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: black;
+    padding: 15px 32px;
+    color: white;
+}
+
+.preço p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10px;
+    color: black;
+}
+
+
+.price-container {
+    display: flex;
+}
+
+
+.preço-fire {
+    width: auto;
+    height: auto;
+    background-color: #2e3640;
+    border-style: solid;
+    border-width: 2px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+.preço-fire h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12;
+    color: orange;
+}
+
+.preço-fire h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.preço-fire p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+
+ 
+.preço-fire button {
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: orange;
+    padding: 15px 32px;
+    color: white;
+}
+
+.preço-fire img {
+    width: 200;
+    height: 200px;
+    filter: invert(91%) sepia(97%) saturate(0%) hue-rotate(41deg) brightness(105%) contrast(103%);
+}
+
+
+.price-container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
